@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<character>
   <row>
     <Name>Aragorn</Name>
     <Series> Lord of the Rings</Series>
     <Role> hero</Role>
     <Job> king</Job>
   </row>
-</root>
+</character>
