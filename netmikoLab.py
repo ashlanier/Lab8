@@ -1,6 +1,7 @@
 import os
 from netmiko import ConnectHandler
 from getpass import getpass
+from netmiko.ssh_exception import AuthenticationException, SSHException, NetMikoTimeoutException
 
 USERNAME = input("Enter your SSH username: ")
 PASSWORD = getpass("Enter your SSH password: ")
