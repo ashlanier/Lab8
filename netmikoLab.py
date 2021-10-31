@@ -40,5 +40,3 @@ except (SSHException):
     print("An error occured while connecting to device " + device['ip'] + " via SSH. Please check if SSH is enabled.")
 except (NetMikoTimeoutException):
     print("The device " + device['ip'] + "timed out when attempting to connect")
-
-    
